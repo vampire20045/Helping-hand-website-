@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image:url(https://media.istockphoto.com/id/1049658692/photo/contact-us.jpg?s=612x612&w=0&k=20&c=hFoLqy8mHjvdPh2HFZQ9pRcO-zzEB9HIENJ7ub2sj80=);
+height:100%;
+width:100%;}
+.contact-form{
+    width:85%;
+    max-width: 600px;
+    background:#eee;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:30px 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.Form{
+    border:1px solid #a9a9a9;
+    margin:7px 0px;
+    padding:6px 20px;
+    border-radius: 8px;
+}
+.Contact-Form h1{
+    font-weight: 500;
+    margin-top: 0px;
+}
+.Form label{
+    font-size: 13px;
+    color:#000;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.Form input, .Form textarea{
+    width:100%;
+    font-size: 19px;
+    margin-top: 5px;
+    border:none;
+    background:none;
+    outline:none;
+}
+.button{
+    width:100%;
+    display: inline-block;
+    background-color: #95c44f;
+    padding:14px 0px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:8px;
+    cursor:pointer;
+    color:#fff;
+
+}
